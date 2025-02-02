@@ -6,10 +6,18 @@ import Services from "./Components/Services/Services";
 const App = () => {
   return (
     <div className="container">
-      <Hero></Hero>
-      <Services></Services>
-      <Portfolio></Portfolio>
-      <Contact></Contact>
+      <section id="#hero">
+        <Hero></Hero>
+      </section>
+      <section id="#services">
+        <Services></Services>
+      </section>
+      <section id="#portfolio">
+        <Portfolio></Portfolio>
+      </section>
+      <section id="#contact">
+        <Contact></Contact>
+      </section>
     </div>
   );
 };
