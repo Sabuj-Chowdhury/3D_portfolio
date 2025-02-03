@@ -2,14 +2,16 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import Contact from "./Components/Contact/Contact";
 import Education from "./Components/Education/Education";
 import Hero from "./Components/Hero/Hero";
+// import Navbar from "./Components/Navbar/Navbar";
 
-// import Portfolio from "./Components/Portfolio/Portfolio";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 import Skills from "./Components/Skills/Skills";
 
 const App = () => {
   return (
     <div className="container">
+      {/* <Navbar></Navbar> */}
       <section id="#hero">
         <Hero></Hero>
       </section>
@@ -24,11 +26,12 @@ const App = () => {
         <Education></Education>
       </section>
 
+      <Portfolio></Portfolio>
       {/* <section id="#portfolio">
         <Portfolio></Portfolio>
       </section> */}
-      <section id="#contact">
-        <Contact></Contact>
+      <section id="contact">
+        <Contact id=""></Contact>
       </section>
     </div>
   );
