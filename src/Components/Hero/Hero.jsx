@@ -45,7 +45,7 @@ const Hero = () => {
           animate="animate"
           className="awards"
         >
-          <motion.h2 variants={socialVariants} className="text-2xl">
+          <motion.h2 variants={socialVariants} className="text-2xl w-full">
             Junior MERN stack Developer
           </motion.h2>
           <motion.p variants={socialVariants}>Social links</motion.p>
