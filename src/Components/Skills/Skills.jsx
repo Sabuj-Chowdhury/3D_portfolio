@@ -17,11 +17,11 @@ const Skills = () => {
       </h2>
 
       {/* Core Skills */}
-      <div className=" ">
+      <div className="flex flex-col gap-4 ">
         <h3 className="text-2xl font-semibold text-center text-gray-300 mb-8">
           Core Skills
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center justify-items-center">
+        <div className="grid grid-cols-3  md:grid-cols-4 gap-5 items-center justify-items-center">
           <div className="flex flex-col items-center gap-2 transition-all hover:scale-110 hover:text-amber-400">
             <FaHtml5 size={40} className="text-orange-500" />
             <span className="text-gray-300 text-lg">HTML5</span>
@@ -58,11 +58,11 @@ const Skills = () => {
       </div>
 
       {/* Familiar Technologies */}
-      <div className="mt-16">
+      <div className="flex flex-col gap-4">
         <h3 className="text-2xl font-semibold text-center text-gray-300 mb-8">
           Familiar With
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center justify-items-center">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-5 items-center justify-items-center">
           <div className="flex flex-col items-center gap-2 transition-all hover:scale-110 hover:text-amber-400">
             <FaJava size={40} className="text-orange-600" />
             <span className="text-gray-300 text-lg">Java</span>
