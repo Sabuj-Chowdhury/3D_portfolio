@@ -1,9 +1,10 @@
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Contact from "./Components/Contact/Contact";
+import Education from "./Components/Education/Education";
 import Hero from "./Components/Hero/Hero";
 
 import Portfolio from "./Components/Portfolio/Portfolio";
-import Services from "./Components/Services/Services";
+
 import Skills from "./Components/Skills/Skills";
 
 const App = () => {
@@ -18,12 +19,14 @@ const App = () => {
       <section id="#skills">
         <Skills></Skills>
       </section>
-      <section id="#services">
-        <Services></Services>
+
+      <section id="#education">
+        <Education></Education>
       </section>
-      <section id="#portfolio">
+
+      {/* <section id="#portfolio">
         <Portfolio></Portfolio>
-      </section>
+      </section> */}
       <section id="#contact">
         <Contact></Contact>
       </section>
