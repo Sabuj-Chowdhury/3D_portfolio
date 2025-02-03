@@ -3,7 +3,7 @@ import Contact from "./Components/Contact/Contact";
 import Education from "./Components/Education/Education";
 import Hero from "./Components/Hero/Hero";
 
-import Portfolio from "./Components/Portfolio/Portfolio";
+// import Portfolio from "./Components/Portfolio/Portfolio";
 
 import Skills from "./Components/Skills/Skills";
 
