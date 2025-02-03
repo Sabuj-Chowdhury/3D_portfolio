@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
@@ -32,8 +34,9 @@ a {
 
 section {
   height: 100vh;
+  scroll-snap-align: center;
 }
-section:nth-child(1) {
+/* section:nth-child(1) {
   background-color: #2f204e;
 }
 section:nth-child(2) {
@@ -44,7 +47,7 @@ section:nth-child(3) {
 }
 section:nth-child(4) {
   background-color: blue;
-}
+} */
 
 /* media query */
 
